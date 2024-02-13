@@ -66,7 +66,6 @@ def main():
         st.session_state.chat_history = None
 
     st.header("Private ChatGPT :lock:")
-    container = st.container()
     user_question = st.text_input("Ask me anything")
     if st.button("Find Answer"):
         with st.spinner("Finding..."):
